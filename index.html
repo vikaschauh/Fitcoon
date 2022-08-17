@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fitcoon</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>      <!-- JQuery --> 
+	<script src="scripts/main.js"></script>														   <!-- For Navigation -->
+	<meta charset = "utf-8">
+	<link rel='shortcut icon' href='./img/fitcoon_logo.png' type='image/x-icon'>
+</head>
+
+<body>
+
+	<!--- Start Navigation -->
+	<div class="nav-outer">
+		<div class="nav-wrap">
+			<nav class="navigation">
+				<div class="logo">
+					<img src="./img/fitcoon_logo.png">
+					<!-- <h3><a href="#">Fitcoon</a> </h3> -->
+				</div>
+				<div class="nav" nav-menu-style="burger">
+					<ul class="nav-menu">
+                        <li><a href="./index.html">Home</a></li>
+						<li><a href="./About/about.html">About</a></li>
+						<li><a href="./Services/services.html">Services</a></li>
+						<li><a href="./Contact/contact.html">Contact</a></li>
+						<li><a href="./FitcoonTV/fitcoontv.html">Fitcoon TV</a></li>
+                        <li><a href="#">Leader Board</a></li>
+                        <li class="vertical"></li>
+						<li><a href="#">Sign In</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!--- End Navigation -->
+	
+	<div class="home">
+		<div class="home-inner">
+			<div class="home-head">
+				<h3>Explore Your city</h3>
+				<p>Let's uncover the best places to workout nearest to you.</p>
+			</div>
+			<div class="home-search">
+				<div class="search-inside">
+					<input type="text" name="search" placeholder="Search Your GYM" required>
+					<input type="text" name="place" placeholder="Your City" required>
+					<datalist id="place">
+						<option>Kanpur</option>
+					</datalist>
+					<button>Search</button>
+				</div>
+			</div>
+			<div class="home-bottom">
+				<p>Just looking around? Let us suggest you something healthy & happening!</p>
+			</div>
+		</div>
+	</div>
+
+	<section class="ppr">
+		<div class="ppr-grid">
+			<a href="#" class="card">
+				<h3>Popular</h3>
+			</a>
+			<a href="#" class="card">
+				<h3>Price</h3>
+			</a>
+			<a href="#" class="card">
+				<h3>Rating</h3>
+			</a>
+		</div>
+	</section>
+
+
+	<section class="container">
+		<h3>“WE ARE PROVIDING BEST GYMS WITH IN YOUR EXPENSE”</h3>
+		<div class="provid">
+			<div class="provid-card">
+				<div class="card-img">
+					<img src="./img/search-gym.png">
+				</div>
+				<div class="card-text">
+					<h3>Search Your Gym</h3>
+					<p>Visit our website or app and search your favorite gym close at hand.</p>
+				</div>
+			</div>
+			<div class="provid-card">
+				<div class="card-img">
+					<img src="./img/checkout.png">
+				</div>
+				<div class="card-text">
+					<h3>Checkout Service Provided</h3>
+					<p>Checkout your gym’s details, pricing, services they are providing and get membership through Fitcoon.</p>
+				</div>
+			</div>
+			<div class="provid-card">
+				<div class="card-img">
+					<img src="./img/enjoy-gym.png">
+				</div>
+				<div class="card-text">
+					<h3>Enjoy Gym Experience</h3>
+					<p>Visit to the gym owner and scan your QR code which will be provided and enjoy the gym experience.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="zigzag"></div>
+
+	<section class="explore-location">
+		<div class="explore-location-head">
+			<img src="./img/Location.svg">
+			<h3>EXPLORE HOT LOCATIONS</h3>
+		</div>
+		<div class="explore-location-city">
+			<a href="#" class="city-card">
+				<img src="./img/Kanpur.svg">
+				<h3>Kanpur</h3>
+			</a>
+		</div>
+	</section>
+
+	<section class="explore-gym">
+		<div class="explore-gym-head">
+			<h3>EXPLORE THE POPULAR ONE</h3>
+			<p>MOST POPULAR A/C TO RATE</p>
+		</div>
+		<div class="explore-gym-grid">
+			<div class="card">
+				<img src="./img/Power-Hub.jpg">
+				<h3>Power Hub Gym</h3>
+				<div class="gym-rating">
+					<span>5.0</span>
+					<p>Popular Price Rating</p>
+				</div>
+				<div class="card-gym-location">
+					<img src="./img/Location.svg">
+					<p>Kanpur</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./img/Body-Lab.jpg">
+				<h3>Body Lab gym</h3>
+				<div class="gym-rating">
+					<span>5.0</span>
+					<p>Popular Price Rating</p>
+				</div>
+				<div class="card-gym-location">
+					<img src="./img/Location.svg">
+					<p>Kanpur</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="./img/Focus-Fitness.jpg">
+				<h3>Focus Fitness</h3>
+				<div class="gym-rating">
+					<span>5.0</span>
+					<p>Popular Price Rating</p>
+				</div>
+				<div class="card-gym-location">
+					<img src="./img/Location.svg">
+					<p>Kanpur</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<h3>FITCOON SERVICES</h3>
+		<span class="services-dash-line"></span>
+		<div class="service-grid">
+			<div class="flip">
+				<div class="front" style="background-image: url(./img/covid-slot.jpg)">
+					<h3>SLOT SYSTEM</h3>
+				</div>
+				<div class="back">
+				<p>BOOK YOUR SLOTS FORM YOUR PLACE ACCORDING TO YOUR CONVIENC</p>
+				</div>
+			</div>
+			<div class="flip">
+				<div class="front" style="background-image: url(./img/get-campaine.jpeg)">
+					<h3>GET YOUR COMPANION</h3>
+				</div>
+				<div class="back">
+				<p>CHOOSE YOUR OWN PARTNER , MAKE YOUR WORKOUT MORE COMFARTABLE.</p>
+				</div>
+			</div>
+			<div class="flip">
+				<div class="front" style="background-image: url(./img/live-session.jpg)">
+					<h3>LIVE SESSION</h3>
+				</div>
+				<div class="back">
+				<p>EXPERIENCE THE EASE OF WORKING OUT AT HOME AND MANAGING INTERACTIVE LIVESTREAM WORKOUTS</p>
+				</div>
+			</div>
+			<div class="flip">
+				<div class="front" style="background-image: url(./img/dite-plane.jpg)">
+					<h3>DIET CONSULTATION</h3>
+				</div>
+				<div class="back">
+				<p>PERSONALISED DIET PLANS FROM TOP NUTRITIONISTS | WEIGHT LOSS & IMMUNITY BOOSTING</p>
+				</div>
+			</div>
+			<div class="flip">
+				<div class="front" style="background-image: url(./img/happy-workout.jpg)">
+				<h3>DON'T GET BORED AND LAZY</h3>
+				</div>
+				<div class="back">
+				<p>PROVISION OF SPECIAL OFFERS AND POINTS ON YOUR REGULARITY</p>
+				</div>
+			</div>
+			<div class="flip">
+				<div class="front" style="background-image: url(./img/dashboard-plan.jpeg)">
+					<h3>LeaderBoard Fight</h3>
+				</div>
+				<div class="back">
+				<p>Get at top 10 of leaderboard by collecting point on basis of performance and earn rewards</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="google-store">
+		<img src="./img/mobileframe.png">
+		<div>
+			<img src="./img/fitcoon_logo.png">
+			<h3>DOWNLOAD THE FITCOON APP NOW</h3>
+			<a href="#"><img src="./img/googleplay.png"></a>
+			<p>Thank you for being our valued customer. We are so grateful for the pleasure of serving you and hope we met your expectations.</p>
+		</div>
+	</section>
+
+	<footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About/about.html">About</a></li>
+                <li><a href="./Services/services.html">Services</a></li>
+                <li><a href="./Contact/contact.html">Contact</a></li>
+                <li><a href="./FitcoonTV/fitcoontv.html">Fitcoon TV</a></li>
+                <li><a href="#">Leader Board</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            Copyright © 2020 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;FITCOON243/8 Dev-Villa Vikas Nagar,Kanpur ,Uttar Pradesg,India 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;Tel 9719429707
+            <br>Proudly Work by Team Fitcoon
+            <ul>
+                <li><a href="#"><img src="./img/facebook.png"></a></li>
+                <li><a href="#"><img src="./img/insta.png"></a></li>
+                <li><a href="#"><img src="./img/linkedin.png"></a></li>
+                <li><a href="#"><img src="./img/pinstart.png"></a></li>
+                <li><a href="#"><img src="./img/twitter.png"></a></li>
+                <li><a href="#"><img src="./img/you_tube.png"></a></li>
+                <li><a href="#"><img src="./img/extra.png"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
